@@ -25,19 +25,23 @@ The following Python libraries are required to run the notebook:
 Make sure to install the necessary packages before running the notebook. You can install them using:
 ```bash
 pip install datasets nltk numpy gensim torch pandas requests tqdm aiohttp
+
 Preprocessing
-Stopwords: The nltk library is used to download and utilize stopwords for text preprocessing.
-Word Embeddings: The gensim library is utilized to train Word2Vec embeddings on the dataset.
+- Stopwords: The nltk library is used to download and utilize stopwords for text preprocessing.
+- Word Embeddings: The gensim library is utilized to train Word2Vec embeddings on the dataset.
+
 Instructions to Run
-Ensure that Python 3 and Jupyter Notebook are installed on your system.
-Install the necessary dependencies using the command provided above.
-Open the notebook using Jupyter:
-bash
-Copy code
+1. Ensure that Python 3 and Jupyter Notebook are installed on your system.
+2. Install the necessary dependencies using the command provided above.
+3. Open the notebook using Jupyter:
+'''bash
 jupyter notebook Another_copy_of_SC4002_1.ipynb
-Execute the cells sequentially to preprocess the data, train the model, and evaluate its performance.
+
+4. Execute the cells sequentially to preprocess the data, train the model, and evaluate its performance.
+
 Hardware Requirements
-If available, the notebook is optimized to run on a GPU for faster training (torch.device("cuda" if torch.cuda.is_available() else "cpu")).
+If available, the notebook is optimized to run on a GPU for faster training (torch.device("cuda" if torch.cuda.is_available() else "CPU")).
+
 Author
 Jovan Foo, Jden Goh, Lim Shao Jie, Ng Qi Wei
 

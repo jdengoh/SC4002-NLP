@@ -24,7 +24,7 @@ The following Python libraries are required to run the notebook:
 
 Make sure to install the necessary packages before running the notebook. You can install them using:
 ```bash
-pip install datasets nltk numpy gensim torch pandas requests tqdm aiohttp
+pip install datasets nltk numpy gensim torch pandas requests tqdm aiohttp'''
 
 Preprocessing
 - Stopwords: The nltk library is used to download and utilize stopwords for text preprocessing.

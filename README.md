@@ -48,7 +48,7 @@ If available, the notebook is optimized to run on a GPU for faster training
 ```
 
 Author
-Jovan Foo, Jden Goh, Lim Shao Jie, Ng Qi Wei
+Jovan Foo, Jden Goh, Lim Shao Jie, Ng Qi Wei (Group 54)
 
 ---
 

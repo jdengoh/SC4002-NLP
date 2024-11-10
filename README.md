@@ -39,14 +39,8 @@ Execute the cells sequentially to preprocess the data, train the model, and eval
 Hardware Requirements
 If available, the notebook is optimized to run on a GPU for faster training (torch.device("cuda" if torch.cuda.is_available() else "cpu")).
 Author
-[Your Name or Team Name]
-Contact: [Your Email Address]
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-yaml
-Copy code
+Jovan Foo, Jden Goh, Lim Shao Jie, Ng Qi Wei
 
 ---
 
-Let me know if you'd like to adjust any sections or add further details! &#8203;:contentReference[oaicite:0]{index=0}&#8203;
+Let me know if you'd like to adjust any sections or add further details!

@@ -35,8 +35,9 @@ Instructions to Run
 1. Ensure that Python 3 and Jupyter Notebook are installed on your system.
 2. Install the necessary dependencies using the command provided above.
 3. Open the notebook using Jupyter:
-'''bash
+```bash
 jupyter notebook Another_copy_of_SC4002_1.ipynb
+```
 
 4. Execute the cells sequentially to preprocess the data, train the model, and evaluate its performance.
 

@@ -42,7 +42,10 @@ jupyter notebook Another_copy_of_SC4002_1.ipynb
 4. Execute the cells sequentially to preprocess the data, train the model, and evaluate its performance.
 
 Hardware Requirements
-If available, the notebook is optimized to run on a GPU for faster training (torch.device("cuda" if torch.cuda.is_available() else "CPU")).
+If available, the notebook is optimized to run on a GPU for faster training 
+```bash
+(torch.device("cuda" if torch.cuda.is_available() else "CPU")).
+```
 
 Author
 Jovan Foo, Jden Goh, Lim Shao Jie, Ng Qi Wei
